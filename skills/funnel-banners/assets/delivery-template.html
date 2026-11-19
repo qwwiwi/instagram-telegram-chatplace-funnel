@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<!-- Delivery banner 1280x720. The double-brace fields are filled by scripts/render_banner.py. -->
+<style>
+html, body { margin: 0; width: 1280px; height: 720px; overflow: hidden; background: #FBFBF8;
+  font-family: "Inter Tight", "Helvetica Neue", Arial, sans-serif; color: #0A0A0A; }
+.grid { position: absolute; inset: 0;
+  background-image: linear-gradient(#0A0A0A0d 1px, transparent 1px), linear-gradient(90deg, #0A0A0A0d 1px, transparent 1px);
+  background-size: 48px 48px; }
+.brand { position: absolute; left: 64px; top: 52px; font-weight: 800; font-size: 28px; letter-spacing: -0.5px;
+  display: flex; align-items: center; gap: 12px; }
+.dot { width: 22px; height: 22px; border-radius: 6px; background: #D4FF00; border: 2px solid #0A0A0A; }
+.pill { position: absolute; left: 64px; top: 128px; font-weight: 700; font-size: 26px; background: #0A0A0A;
+  color: #D4FF00; padding: 10px 22px; border-radius: 40px; }
+.h1 { position: absolute; left: 60px; top: 196px; font-weight: 900; font-size: 124px; line-height: 0.95; letter-spacing: -5px; }
+.lime { background: #D4FF00; padding: 0 18px; border-radius: 14px; box-shadow: 6px 6px 0 #0A0A0A;
+  border: 3px solid #0A0A0A; display: inline-block; margin-top: 10px; }
+.sub { position: absolute; left: 64px; top: 520px; width: 560px; font-weight: 700; font-size: 34px; letter-spacing: -0.5px; }
+.hint { position: absolute; left: 64px; top: 620px; font-weight: 600; font-size: 28px; color: #555; }
+.cover { position: absolute; right: 60px; top: 160px; width: 540px; height: 304px; border-radius: 18px; border: 3px solid #0A0A0A;
+  box-shadow: 10px 10px 0 #D4FF00; background-color: #0A0A0A; background-size: cover; background-position: center;
+  background-image: url("cover.jpg"); }
+</style>
+</head>
+<body>
+<div class="grid"></div>
+<div class="brand"><span class="dot"></span><span>{{BRAND}}</span></div>
+<div class="pill">{{PILL}}</div>
+<div class="h1">{{TITLE_1}}<br><span class="lime">{{TITLE_2}}</span></div>
+<div class="sub">{{SUB}}</div>
+<div class="hint">{{HINT}}</div>
+<div class="cover"></div>
+</body>
+</html>

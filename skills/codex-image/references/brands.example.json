@@ -1,0 +1,13 @@
+{
+  "presets": {
+    "my-brand": {
+      "description": "Example preset: copy this file to brands.json and replace the paths with your own images",
+      "references": [
+        {"path": "~/brand/logo.png", "role": "logo", "note": "main logo"},
+        {"path": "~/brand/banner-reference.png", "role": "style", "note": "approved banner, copy the look not the text"}
+      ],
+      "style_notes": ["Near-black background, lime accent, flat tech illustration"],
+      "avoid": ["purple gradients", "watermarks"]
+    }
+  }
+}

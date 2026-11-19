@@ -1,0 +1,19 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+invites.json
+
+# python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# local output
+backups/
+out/
+.DS_Store

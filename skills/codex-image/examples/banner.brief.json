@@ -1,0 +1,29 @@
+{
+  "type": "banner",
+  "preset": "",
+  "preset_replace_roles": [],
+  "purpose": "Welcome banner for the Telegram bot of a lead-magnet funnel: promise the lesson and push to the next step",
+  "placement": "First message of the Telegram bot, shown above the text and two buttons",
+  "route": "subscription",
+  "quality": "medium",
+  "aspect": "landscape",
+  "size": "",
+  "final_size": "1280x720",
+  "scene": "Clean dark background with a faint grid and a soft lime glow in the corner",
+  "subject": "A laptop with a simple chat window and a small robot icon next to it, flat vector look",
+  "details": "Large readable headline on the left, generous empty space around the text",
+  "style": "Flat modern tech illustration, palette: near-black #0A0A0A, lime #D4FF00, off-white #F5F5F0",
+  "no_text": false,
+  "text": [
+    {"content": "УРОК ГОТОВ", "position": "left half, two lines, large", "typography": "heavy bold sans, all caps, off-white", "kind": "headline"}
+  ],
+  "references": [],
+  "references_none_reason": "no brand assets yet: first banner of the project, style is described in words",
+  "avoid": ["any text other than the headline", "faces of real people"],
+  "preserve": [],
+  "extra": {
+    "platform": "Telegram bot welcome message, 1280x720 px",
+    "safe_zone": "keep text away from the outer 5 percent",
+    "cta": "no CTA on the image, the button is in the message"
+  }
+}
